@@ -1,0 +1,118 @@
+@media (max-width: 1399.98px) {
+    section{
+
+        .popular_skill_box{
+            .cat_heading {
+                h3 {
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+            }
+        } 
+        .most_popular_das {
+            .Most_Frequent{
+                .popular_assign_sec {
+                    max-height: 700px;
+                    overflow: auto;
+                }
+                h3 {
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+            }
+        }
+        .card_box_das{
+            .Coding_Question_box{
+                .coading_box {
+                    .text_coading {
+                        p {
+                            margin: 0px;
+                            font-weight: 500;
+                            font-size: 15px;
+                        }
+                    }
+                    .img_file {
+                        margin-right: 10px;
+                        width: 55px;
+                        height: 55px;
+                        @include bd-radius(14px);
+                        background: #ff8d8d;
+                        text-align: center;
+                        line-height: 50px;
+                    }
+                }
+            }
+        }
+    }
+       
+}
+
+@media (max-width: 1199.98px) {}
+
+
+
+@media (max-width: 1024.9px) {
+    section{
+        .section_heading{
+            h3{
+                font-size: 22px;
+                font-weight: 500;
+            }
+        }
+        .card_box_das{
+            .Coding_Question_box {
+                .coading_box {
+                    .text_coading {
+                        p {
+                            line-height: 22px;
+                            margin: 0px;
+                            font-weight: 500;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+        .most_popular_das{
+            .Most_Frequent{
+                .popular_assign_sec {
+                    max-height: 762px;
+                    overflow: auto;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 991.9px) {
+	header {
+        .header {
+            padding: 10px 0px;
+        }
+    }
+    section.qb_section {
+        .question_filter{
+            .filter_heading {
+                text-align: left !important;
+            }
+        }
+        .question_bank_heading {
+            display: block;
+            h3 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+
+}
+
+
+@media (max-width: 767.98px) {
+
+}
+
+
+@media (max-width: 575.98px) {}
